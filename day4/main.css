@@ -1,0 +1,49 @@
+body{
+    background-image:linear-gradient(to right , rgb(248, 114, 134) , lightskyblue , lightgreen)
+    
+}
+#topnav{
+  -ms-grid-row-align:end;
+  background-color: white;
+}
+ #topnav a {
+    border:5px , solid , darkblue;
+    float: left;
+    color:rgb(221, 27, 27);
+    text-align: center;
+    font-weight: bolder;
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-size: 17px;
+    background-color:white;
+  } 
+  #topnav a:hover {
+      background-color:lightgreen;
+      
+}
+.align{
+  flex:7;
+  display:flex
+}
+.adjust{
+      
+        margin: 5px;
+        float: left;
+        width: 300px;
+        height:fit-content;
+        font-family:Dancing Script , cursive;
+        font-weight: bolder;
+        background-color:white;
+        border-bottom-color: lightskyblue;
+        border-bottom-style:groove ;
+        color: crimson;
+    
+}
+.price{
+      color:grey;
+      font-size:22px;
+}
+  button{
+      background-color:lightgreen;
+      font:caption;
+  }
